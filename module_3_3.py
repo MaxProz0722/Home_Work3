@@ -1,5 +1,5 @@
-def print_params(*params, a = 1, b = 'строка', c = True):
-    print(*params, a, b, c)
+def print_params(a = 1, b = 'строка', c = True):
+    print(a, b, c)
 
 
 print_params()
